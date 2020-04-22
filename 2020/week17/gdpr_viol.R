@@ -28,7 +28,7 @@ gdpr_by_country <- gdpr_violations %>%
 plot1 <- gdpr_by_country %>% 
   ggplot() +
   geom_image(aes(price, n, image = picture), size = 0.07) +
-  ggtitle("Total number of GDPR violations by country (2018-2020)") +
+  ggtitle("Total number and price of GDPR violations by country (2018-2020)") +
   labs(x = "Price (\u20AC)", y = "Number of GDPR violations") +
   theme_bw() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
