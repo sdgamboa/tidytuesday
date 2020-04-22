@@ -3,7 +3,6 @@
 packages <- c(
   "tidyverse",
   "lubridate",
-  "gridExtra",
   "ggimage",
   "rsvg"
   )
